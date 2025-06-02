@@ -1,0 +1,38 @@
+
+.left{
+       position: absolute;
+    left: 00px;
+    top: 0px;
+
+}
+.right{
+       position: absolute;
+    right: 0;
+    top: 0;
+}
+.box{
+    position: relative;
+    z-index: 2000;
+}
+.box1{
+    border-top: solid 15px #FBE06B;
+ 
+}
+
+.box2{
+ border-top: solid 15px #C6CDE0;
+ 
+}
+
+.box3{
+ border-top: solid 15px #69A0E0;
+ 
+}
+
+
+.boxs{
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: center !important;
+}

@@ -1,0 +1,88 @@
+.hero{
+    height: auto;
+        background: linear-gradient(#092346 100%,#C8CEDE 100%);
+  position: relative;
+  box-shadow: 0 45px 0 #C8CEDE;
+border-radius:0  0 50% 50%;
+ }
+
+.hero::after{
+    
+    content: "";
+    background: url("../../public/images/hero-inner.png");
+    z-index: 9;
+        background-repeat: no-repeat;
+
+position: absolute;
+width: 1342.54px;
+height: 538.43px;
+left: calc(50% - 1342.54px/2 - 1.73px);
+top: 440px;
+
+
+
+}
+.hero img{
+    position: absolute;
+        z-index: 100;
+
+}
+.one{
+    left: 630px;
+    top:240px;
+}
+.tow{
+    left: 370px;
+    top: 280px;
+}
+.three{
+   right: 370px;   
+    top:290px;
+}
+
+@media screen and (max-width: 765px) {
+  .hero {
+    border-radius: 0 0 20% 20%;
+    box-shadow: 0 10px 0 #C8CEDE;
+    height: 70vh;
+  }
+
+  .hero::after {
+    top: 250px;
+    /* aspect-ratio: auto; */
+    /* height: 150px; */
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    left: -5px;
+    top: 250px;
+
+    
+  }
+
+  .hero img {
+    width: 60px;
+    height: auto;
+    display: block;
+    /* margin: 10px auto; */
+  }
+.one{
+    left: 150px;
+    top: 225px;
+}
+.tow{
+    width: 45px;
+    left: 70px;
+    top: 200px;
+
+}
+ 
+.three{
+    right: 70px;
+    top: 200px;
+
+}
+}
+ 
+
+ 
